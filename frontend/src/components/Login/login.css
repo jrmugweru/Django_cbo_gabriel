@@ -1,0 +1,143 @@
+.divider:after,
+.divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Full-page background image */
+  .header-background {
+    background: url('/img/header-background.jpg') no-repeat center center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Dark overlay to enhance contrast */
+  .header-background::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+  }
+  
+  /* Navbar Styling */
+  .navbar-container {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    z-index: 10;
+  }
+  
+  .logo img {
+    height: 50px;
+    filter: brightness(1.2); /* Make logo more visible */
+  }
+  
+  /* Navigation Menu */
+  .main-menu ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .main-menu ul li {
+    margin: 0 15px;
+  }
+  
+  .main-menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .main-menu ul li a:hover {
+    color: #ffcc00;
+  }
+  
+  /* Donation Button */
+  .donate-btn a {
+    background: #ff6600;
+    padding: 10px 20px;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+  
+  .donate-btn a:hover {
+    background: #ff4500;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .navbar-container {
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+  
+    .main-menu ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .main-menu ul li {
+      margin-bottom: 10px;
+    }
+  
+    .donate-btn {
+      margin-top: 10px;
+    }
+  }
+  
+  /* Login Form Styling */
+  .vh-100 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 80px;
+  }
+  
+  .container {
+    max-width: 900px;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    transition: background 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .divider::before,
+  .divider::after {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  

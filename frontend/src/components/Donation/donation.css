@@ -1,0 +1,93 @@
+/* donation.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6; /* Light gray background */
+  }
+  
+  /* Donation Container */
+  .donation-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  /* Form Card */
+  .donation-form {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Title */
+  .donation-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ea580c; /* Orange color */
+    margin-bottom: 0.5rem;
+  }
+  
+  .donation-text {
+    color: #6b7280; /* Gray text */
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Input Fields */
+  .donation-input,
+  .donation-select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #d1d5db; /* Light gray border */
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .donation-input:focus,
+  .donation-select:focus {
+    outline: none;
+    border-color: #ea580c; /* Orange border on focus */
+    box-shadow: 0 0 5px rgba(234, 88, 12, 0.5);
+  }
+  
+  /* Payment Method Sections */
+  .payment-method {
+    padding: 1rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+  }
+  
+  .mpesa {
+    background: #ecfdf5; /* Light green */
+    border-left: 5px solid #10b981; /* Green border */
+  }
+  
+  .bank {
+    background: #eff6ff; /* Light blue */
+    border-left: 5px solid #3b82f6; /* Blue border */
+  }
+  
+  /* Donate Button */
+  .donate-button {
+    width: 100%;
+    background: #ea580c;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.3s;
+    border: none;
+  }
+  
+  .donate-button:hover {
+    background: #c2410c;
+  }
+  
