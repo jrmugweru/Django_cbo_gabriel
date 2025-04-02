@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "./components/Header/Header";
 import Body from "./components/Body/Body";
 import Donation from "./components/Donation/Donation";
-import Register from "./components/register/Register";
+import Register from "./components/register/Register.jsx";
 import Login from "./components/Login/Login";
 import Footer from "./components/Footer/Footer";
 import Contact from "./components/Contact";
