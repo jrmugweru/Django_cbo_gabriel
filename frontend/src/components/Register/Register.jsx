@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import "./register.css";
+import "./Register.css";
 
-const register = () => {
+const Register = () => {
   const navigate = useNavigate();
 
   const [formData, setFormData] = useState({
@@ -150,4 +150,4 @@ const register = () => {
   );
 };
 
-export default register;
+export default Register;
