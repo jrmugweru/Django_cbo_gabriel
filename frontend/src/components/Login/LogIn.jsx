@@ -14,7 +14,7 @@ const LogIn = () => {
       setError(null);
   
       try {
-        const response = await axios.post('http://127.0.0.1:8000/api/login/', { email, password });
+        const response = await axios.post('https://django-cbo-gabriel-2.onrender.com/api/login/', { email, password });
   
         if (response.status === 200) {
           localStorage.setItem('token', response.data.token);
