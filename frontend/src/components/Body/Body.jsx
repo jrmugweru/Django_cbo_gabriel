@@ -1,71 +1,16 @@
 import React from 'react'
 import "./Body.css"
-import { Link} from 'react-router-dom';
+
 
 
 
 
 const Body = () => {  
+  
   return (
     <>
       <div>
-        {/*[if lte IE 9]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]*/}
-        {/* header-start */}
-        <header className="header">
-      {/* Background Image Covering the Whole Header */}
-      <div className="header-background">
-        
-        {/* Navbar */}
-        <div className="navbar-container">
-          <div className="logo">
-            <a href="/">
-              <img src="img/logo.png" alt="Logo" />
-            </a>
-          </div>
-
-          <nav className="main-menu">
-            <ul>
-              {/* <li><a href="/">Home</a></li> */}
-              <li><a href="#our-story">Stories</a></li>
-              <li>
-                <a href="#updates">Updates</a>
-                
-              </li>
-              <li>
-                <a href="#partners">Partners</a>
-                
-              </li>
-              <li>
-                <a href="#blog">Blog</a>
-                
-              </li>
-              <li><a href="/login">Login</a></li>
-            </ul>
-
-            <div className="donate-btn">
-              <Link to="/donation">Make a Donation</Link>
-            </div>
-          </nav>
-            
-        </div>
-        <div className="container">
-              <div className="row">
-                <div className="col-lg-9">
-                  <div className="slider_text ">
-
-                    <h3> USHIRIKIANO INITIATIVE</h3>
-                    <p>Together Building A Health
-                      And Peacefull Community</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-       
-      </div>
-    </header>
+      
       
         {/* slider_area_end */}
         {/* reson_area_start  */}

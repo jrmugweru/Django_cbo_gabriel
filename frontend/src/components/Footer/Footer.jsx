@@ -5,7 +5,7 @@ import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer className="footer">
+    <footer id="blog" className="footer">
       <div className="container">
         <div className="footer-content">
           <div className="footer-logo">

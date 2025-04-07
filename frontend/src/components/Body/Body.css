@@ -1,26 +1,3 @@
-/* start header */
-/* Background Image Covering the Whole Header */
-.header-background {
-  background: url("/img/banner/banner.png") no-repeat center center/cover !important;
-  width: 100%;
-  height: 100vh; /* Full height */
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Dark overlay to improve visibility */
-.header-background::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Darken the image */
-}
 
 /* Text Styling */
 .slider_text {

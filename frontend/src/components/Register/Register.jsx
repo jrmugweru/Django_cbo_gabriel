@@ -61,18 +61,7 @@ const register = () => {
             </Link>
           </div>
   
-          <nav className="main-menu">
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About</Link></li>
-              <li><Link to="/blog">Blog</Link></li>
-              <li><Link to="/login">Login</Link></li>
-            </ul>
-  
-            <div className="donate-btn">
-              <Link to="/donation">Make a Donation</Link>
-            </div>
-          </nav>
+          
         </div>
   
         {/* Register Form */}

@@ -33,17 +33,7 @@ const LogIn = () => {
               <img src="/img/logo.png" alt="Logo" />
             </Link>
           </div>
-          <nav className="main-menu">
-            <ul>
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/">Stories</Link></li>
-              <li><Link to="/">News</Link></li>
-              {/* <li><Link to="/login">Login</Link></li> */}
-            </ul>
-            <div className="donate-btn">
-              <Link to="/donation">Make a Donation</Link>
-            </div>
-          </nav>
+         
         </div>
   
         <section className="vh-100">
