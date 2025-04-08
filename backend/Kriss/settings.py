@@ -41,7 +41,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://django-cbo-gabriel-q4lu.vercel.app',  # Vercel frontend
+    'https://django-cbo-gabriel-dn6m.vercel.app/',  # Vercel frontend
 ]
 
 # Application definition
