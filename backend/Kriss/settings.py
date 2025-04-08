@@ -73,7 +73,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://django-cbo-gabriel-q4lu.vercel.app/',
+    'https://django-cbo-gabriel-dn6m.vercel.app/',
     'http://localhost:5173',  # Local development
    
 ]
