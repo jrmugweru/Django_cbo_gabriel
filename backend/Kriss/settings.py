@@ -35,8 +35,14 @@ SECRET_KEY = SECRET_KEY = os.getenv('SECRET_KEY', 'your-default-secret-key')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.getenv('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = [
+    'django-cbo-gabriel-2.onrender.com',  # Render backend
+    'localhost',  # Local development
+]
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://django-cbo-gabriel-q4lu.vercel.app',  # Vercel frontend
+]
 
 # Application definition
 
@@ -68,6 +74,7 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     'https://django-cbo-gabriel-q4lu.vercel.app/',
+    'http://localhost:5173',  # Local development
    
 ]
 
