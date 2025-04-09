@@ -41,7 +41,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://django-cbo-gabriel-dn6m.vercel.app/',  # Vercel frontend
+    'https://django-cbo-gabriel-dn6m.vercel.app',  # Vercel frontend
 ]
 
 # Application definition
@@ -73,7 +73,7 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    'https://django-cbo-gabriel-dn6m.vercel.app/',
+    'https://django-cbo-gabriel-dn6m.vercel.app',
     'http://localhost:5173',  # Local development
    
 ]
