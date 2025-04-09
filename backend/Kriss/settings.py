@@ -40,8 +40,10 @@ ALLOWED_HOSTS = [
     'localhost',  # Local development
 ]
 
+
 CSRF_TRUSTED_ORIGINS = [
     'https://django-cbo-gabriel-dn6m.vercel.app',  # Vercel frontend
+    'https://django-cbo-gabriel-2.onrender.com',
 ]
 
 # Application definition

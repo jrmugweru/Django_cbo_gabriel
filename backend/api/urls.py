@@ -20,6 +20,6 @@ router.register("contact", ContactMessageViewSet, basename="contact-message")
 
 urlpatterns = [
     path("", views.home, name="home"),  # ✅ Ensure `home` view exists in `views.py`
-    path("api/", include(router.urls)),
+    path("", include(router.urls)),
     
 ]
