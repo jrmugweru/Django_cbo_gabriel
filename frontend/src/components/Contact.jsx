@@ -31,7 +31,7 @@ const Contact = () => {
       // }
   
       try {
-        const response = await axios.post("https://django-cbo-gabriel-2.onrender.com/api/register/", {
+        const response = await axios.post("https://django-cbo-gabriel-2.onrender.com/api/contact/", {
           name: formData.name,
           email: formData.email,
           message: formData.message,
